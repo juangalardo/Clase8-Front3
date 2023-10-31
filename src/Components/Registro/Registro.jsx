@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Enviado from './Enviado';
+import Enviado from '../Enviado/Enviado';
 
 const Registro = () => {
 
     const [nombre, setNombre] = useState ("");
-    const [edad, setEdad] = useState (0);
+    const [edad, setEdad] = useState ();
     const [pokemon, setPokemon] = useState ("");
     const [show, setShow] = useState(false);
     const [error, setError] = useState (false);
